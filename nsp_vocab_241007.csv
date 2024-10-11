@@ -1,0 +1,40 @@
+USER_VOCABULARY,FIELD
+주문 번호,Sales_Order_Number
+판매 번호,Sales_Order_Number
+판매일자,Sales_Order_Date
+주문일자,Sales_Order_Date
+날짜,Sales_Order_Date
+주문 타입,Sales_Order_Type
+주문 유형 ,Sales_Order_Type
+세금,Sales_Order_Tax_Amount
+Tax,Sales_Order_Tax_Amount
+비용,Sales_Order_Product_Cost
+Cost,Sales_Order_Product_Cost
+판매 금액,Sales_Amount
+총 금액,Sales_Amount
+금액,Sales_Amount
+판매 조직,Sales_Organization
+영업 조직,Sales_Organization
+유통 경로,Distribution_Channel
+유통 채널,Distribution_Channel
+내수,Distribution_Channel
+수출,Distribution_Channel
+사업부,Division
+사업부서,Division
+사업부문,Division
+배송요청일,Request_delivery_date(header-RDD)
+RDD,Request_delivery_date(header-RDD)
+고객,Customer
+고객사,Customer
+지역,Sales_District
+Payer,Payer
+구매자,Payer
+판매원,Sale_Employee
+영업사원,Sale_Employee
+판매원,Sale_Employee(name)
+영업사원,Sale_Employee(name)
+제품 그룹,Material_Group
+제품군,Material_Group
+제품그룹,Material_Group
+제품,Material_Name
+상품,Material_Name

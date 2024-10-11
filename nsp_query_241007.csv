@@ -1,0 +1,12 @@
+USER_QUERIES,FIELDS
+최근 10년간 연도별 총 판매금 알려줘,"NSP_TABLE.Sales_Order_Date, NSP_TABLE.Sales_Amount"
+2020 ~ 2023년동안 각 제품 그룹별로 총금액 알려줘,"NSP_TABLE.Sales_Order_Date, NSP_TABLE.Material_Group, NSP_TABLE.Sales_Amount"
+사업부서별로 판매하는 제품군 리스트 알려줘,"NSP_TABLE.Division, NSP_TABLE.Material_Group"
+모니터 제품군에 있는 제품리스트 알려줘,"NSP_TABLE.Material_Group, NSP_TABLE.Material_Name"
+금액기준으로 2023년 가장 많이 팔린 제품 알려줘,"NSP_TABLE.Sales_Order_Date, NSP_TABLE.Sales_Amount, NSP_TABLE.Material_Name"
+최근 10년간 고객별로 연도별 총 판매금 알려줘,"NSP_TABLE.Sales_Order_Date, NSP_TABLE.Customer, NSP_TABLE.Sales_Amount"
+2023년 각 고객별로 내수와 수출 판매의 비중 알려줘,"NSP_TABLE.Sales_Order_Date, NSP_TABLE.Customer, NSP_TABLE.Distribution_Channel"
+영업조직별로 판매금액과 판매건수 알려줘,"NSP_TABLE.Sales_Organization, NSP_TABLE.Sales_Amount"
+각 제품그룹별로 마진률의 평균을 알려줘,"NSP_TABLE.Material_Group, NSP_TABLE.Sales_Amount, NSP_TABLE.Sales_Order_Product_Cost, NSP_TABLE.Sales_Order_Tax_Amount"
+최근 1년 주문고객과 물건받는곳이 달랐던 건수와 금액 알려줘,"NSP_TABLE.Sales_Order_Date, NSP_TABLE.Payer, NSP_TABLE.Customer, NSP_TABLE.Sales_Amount"
+전체 기간동안 가장 많은 금액을 판매한 고객은 어떤 제품을 제일 많이 샀니?,"NSP_TABLE.Sales_Order_Date, NSP_TABLE.Sales_Amount, NSP_TABLE.Customer, NSP_TABLE.Material_Name"
